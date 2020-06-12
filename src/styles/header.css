@@ -1,0 +1,19 @@
+.navbar-brand img{
+    height: 50px;
+    width: 75px;
+}
+
+ul li {
+    font-size: 20px !important;
+    
+}
+
+ul li a{
+    color: black !important;
+}
+
+ul li:hover{
+    background-color: #E3F2FD;
+    color: black;
+    border-radius: 5px 15px;
+}
