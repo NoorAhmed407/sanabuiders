@@ -1,4 +1,4 @@
-import BIMG from './img/bodyimg.jpg';
+import BIMG from './img/sectionimg.jpg';
  
  const iState = {
      bodyData: {
@@ -10,6 +10,45 @@ import BIMG from './img/bodyimg.jpg';
             "We put main emphasis on immaculate planning for every project and offers practical and preferred ideas in housing. People at Sana Builders believes in creativity and innovation. Comprising a team of highly qualified, experienced and dedicated professionals, our experts continuously strive for building and development of the housing demands of maximum number of people."
             ],
         Img: BIMG
+    },
+    ourTeamData:{
+        textData: [
+                    {
+                        id: 1,
+                        name: "Sarfaraz Ahmed",
+                        desc: "Sarfaraz Ahmed is the CEO and Board of Director of Sana Builders and Developers. He is serving this Organization from last 13 years"
+                    },
+
+                    {
+                        id: 2,
+                        name: "Muhammad Mehtab",
+                        desc: "Muhammad Mehtab is the Finance Director and Member Board of Management of Sana Builders and Developers. He is serving this Organization from last 10 years"
+                    },
+
+                    {
+                        id: 3,
+                        name: "Fareed Uddin",
+                        desc: "Fareed Uddin is the Marketing Manager and Head of Director of Sana Builders and Developers. He is serving this Organization from last 07 years"
+                    }
+                ]
+    },
+    footerData:{
+        icons: [
+            {
+                id: 1,
+                name: "facebook"
+            },
+            
+            {
+                id: 2,
+                name: "instagram"
+            },
+            
+            {
+                id: 3,
+                name: "gmail"
+            }
+        ]
     }
  }  
 

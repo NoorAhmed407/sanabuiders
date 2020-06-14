@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import BIMG from './../img/bodyimg.jpg';
 import {connect} from 'react-redux';  
 import AOS from 'aos'; 
 import 'aos/dist/aos.css';

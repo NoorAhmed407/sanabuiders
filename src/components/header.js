@@ -9,7 +9,7 @@ class Header extends Component{
       }
     
       listenScrollEvent = e => {
-        if (window.scrollY > 100) {
+        if (window.scrollY > 50) {
           this.setState({color: 'primary'})
         } else {
           this.setState({color: 'transparent'})
