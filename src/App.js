@@ -3,7 +3,7 @@ import Header from './components/header';
 import Carousal from './components/carousal';
 import Body from './components/body';
 import OurTeam from './components/ourteam';
-// import FooterPage from './components/footer'
+import Footer from './components/footer'
 function App() {
   return (
     <div>
@@ -11,7 +11,7 @@ function App() {
       <Carousal />
       <Body />
       <OurTeam />
-      {/* <FooterPage /> */}
+      <Footer />
     </div>
   );
 }

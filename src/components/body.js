@@ -37,6 +37,7 @@ class Body extends Component{
 
                         <div className="col-md-6">
                             <img 
+                            style={{border: "5px solid black"}}
                             data-aos="fade-right"
                             className="img-fluid mx-auto mt-5"
                             src={this.props.bodydata.Img} alt="body" />

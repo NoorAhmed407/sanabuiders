@@ -36,18 +36,14 @@ import BIMG from './img/sectionimg.jpg';
         icons: [
             {
                 id: 1,
-                name: "facebook"
+                name: "facebook-new"
             },
             
             {
                 id: 2,
-                name: "instagram"
+                name: "instagram-new"
             },
-            
-            {
-                id: 3,
-                name: "gmail"
-            }
+
         ]
     }
  }  
