@@ -33,7 +33,9 @@ class Contact extends Component{
     render(){
         return(
             <div>
-            <Sectionhead heading="Contact US"/>
+            <Sectionhead 
+            imgtype="contact,phone"
+            heading="Contact US"/>
             <div className="container py-5">
                 <form>
                     <div className=" mx-auto form-group mb-5 col-md-6">

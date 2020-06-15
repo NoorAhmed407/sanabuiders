@@ -6,7 +6,9 @@ class History extends Component{
     render(){
         return(
             <div>
-                <Sectionhead heading="History"/>
+                <Sectionhead 
+                imgtype="construction,project"
+                heading="History"/>
                 <div className="container py-5">
                 <ul>
                     <li>Since inception back in 1990, the idea is to strive to raise the standard of construction industry. The Brains behind the SANA BUILDERS & DEVELOPERS streamline a strong dedication and Professionalism of High Standard in their work and site environment.</li>

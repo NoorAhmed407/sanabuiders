@@ -8,6 +8,7 @@ import About from './components/About';
 import Mission from './components/Misison';
 import History from './components/History';
 import Contact from './components/Contact';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 class Home extends Component{
   render(){
@@ -24,9 +25,17 @@ class Home extends Component{
 function App() {
   return (
     <div>
-      <Header />
-        <Contact />
-      <Footer />
+      <BrowserRouter>
+        <Header />
+          <Switch>
+              <Route path="/" exact component={Home} />
+              <Route path="/about" component={About} />
+              <Route path="/history" component={History} />
+              <Route path="/mission" component={Mission} />
+              <Route path="/contact" component={Contact} />
+          </Switch>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

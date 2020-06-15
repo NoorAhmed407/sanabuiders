@@ -6,7 +6,9 @@ class Mission extends Component{
     render(){
         return(
             <div>
-                <Sectionhead  heading="Our Mission"/>
+                <Sectionhead  
+                imgtype="civil-engineer,building"
+                heading="Our Mission"/>
                <div className="container py-5">
                     <h4>
                      >> <b>SANA BUILDERS & DEVELOPERS</b> numbered among the leading state of the art comfort providers in Pakistan. Our principle mission is to offer integrated solutions for standard living & facilities. We prioritize sustainable business practice and take responsibility for our action.

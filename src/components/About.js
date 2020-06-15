@@ -97,7 +97,9 @@ const Projects = (props)=>{
     render(){
         return(
             <div>
-                <Sectionhead heading="About Us" />
+                <Sectionhead 
+                imgtype="building,crains"
+                heading="About Us" />
                 <Aboutbody />
                 <div className="jumbotron my-5">
                         <h1 className="text-center">Our Projects</h1>

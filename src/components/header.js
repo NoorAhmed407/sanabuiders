@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import logo from './../img/logo.jpg';
 import './../styles/header.css';
-
+import {BrowserRouter, Link} from 'react-router-dom'
 class Header extends Component{
 
     state = {
@@ -25,31 +25,31 @@ class Header extends Component{
             <div>
                 <div className={`navbar navbar-expand-lg navbar-light fixed-top bg-${this.state.color}`}>
                     <div className="container">
-                <a className="navbar-brand" href="#">
+                <Link className="navbar-brand" to="/">
                     <img 
                     alt="logo" src={logo}
                     />
-                </a>
+                </Link>
                 <button className="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                            <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About</a>
+                            <Link className="nav-link" to="/about">About</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Mission</a>
+                            <Link className="nav-link" to="/mission">Mission</Link>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#">History</a>
+                            <Link className="nav-link" to="history">History</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact</a>
+                            <Link className="nav-link" to="/contact">Contact</Link>
                         </li>         
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
