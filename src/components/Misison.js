@@ -10,7 +10,10 @@ class Mission extends Component{
                 imgtype="civil-engineer,building"
                 heading="Our Mission"/>
                <div className="container py-5">
-                    <h4>
+                    <h4 
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    >
                      >> <b>SANA BUILDERS & DEVELOPERS</b> numbered among the leading state of the art comfort providers in Pakistan. Our principle mission is to offer integrated solutions for standard living & facilities. We prioritize sustainable business practice and take responsibility for our action.
                             <br />
                             <br />

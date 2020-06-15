@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import Sectionhead from './sectionhead';
+import AOS from 'aos'; 
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 
 
@@ -37,7 +41,10 @@ class Contact extends Component{
             imgtype="contact,phone"
             heading="Contact US"/>
             <div className="container py-5">
-                <form>
+                <form 
+                data-aos-duration="1000"
+                data-aos="fade-right"
+                >
                     <div className=" mx-auto form-group mb-5 col-md-6">
                         <label>Fullname</label>
                         <input 

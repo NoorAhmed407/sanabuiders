@@ -16,6 +16,7 @@ const Aboutbody = (props) =>{
                 <div 
                 class="col-md-7 d-flex align-items-center"
                 data-aos="fade-left"
+                data-aos-duration="1000"
                 >
                     <div>
                         <p style={{fontSize:"17px"}}>

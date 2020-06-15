@@ -10,7 +10,10 @@ class History extends Component{
                 imgtype="construction,project"
                 heading="History"/>
                 <div className="container py-5">
-                <ul>
+                <ul 
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                >
                     <li>Since inception back in 1990, the idea is to strive to raise the standard of construction industry. The Brains behind the SANA BUILDERS & DEVELOPERS streamline a strong dedication and Professionalism of High Standard in their work and site environment.</li>
                    <br /> <li>Member of ABAD (Association of Builders & Developers) under the title of “Mehtab Builders & Developers” and “Sana Corporation”.</li>
                    <br /> <li>Licensed by B.C.A. (Sindh Building Control Authority) under the Title of “Mehtab Builders & Developers”</li>

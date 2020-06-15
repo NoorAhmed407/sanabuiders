@@ -12,7 +12,8 @@ export default class Sectionhead extends Component{
         return(
             <div>
                 <img
-                data-aos="zoom-out" 
+                data-aos="zoom-out"
+                data-aos-duration="1000" 
                 src= {`https://source.unsplash.com/1600x500/?${this.props.imgtype}`}
                 alt="Img"
                 style={{width: "100%"}}
