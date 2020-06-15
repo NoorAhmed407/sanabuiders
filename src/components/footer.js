@@ -9,7 +9,7 @@ class Footer extends Component{
             return(
                 <a 
                 key = {item.id}
-                href="#"
+                href={item.linkto}
                 className="p-2"
                 >
                     <img 
@@ -24,7 +24,7 @@ class Footer extends Component{
    
     render(){
         return(
-            <div className="mt-n5 bg-primary">
+            <div className="bg-primary">
                 <div className="container">
                     <div className="row py-5 text-light">
                         <div className="col-md-6">

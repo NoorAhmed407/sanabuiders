@@ -12,7 +12,7 @@ ul li a{
     color: black !important;
 }
 
-ul li:hover{
+ul li a:hover{
     background-color: #E3F2FD;
     color: black;
     border-radius: 5px 15px;

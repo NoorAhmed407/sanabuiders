@@ -35,11 +35,11 @@ class Body extends Component{
                             </p>
                         </div>
 
-                        <div className="col-md-6">
+                        <div className="col-md-6 d-flex align-items-center">
                             <img 
                             style={{border: "5px solid black"}}
                             data-aos="fade-right"
-                            className="img-fluid mx-auto mt-5"
+                            className="img-fluid"
                             src={this.props.bodydata.Img} alt="body" />
                         </div>
 

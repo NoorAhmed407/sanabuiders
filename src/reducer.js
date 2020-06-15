@@ -36,14 +36,104 @@ import BIMG from './img/sectionimg.jpg';
         icons: [
             {
                 id: 1,
-                name: "facebook-new"
+                name: "facebook-new",
+                linkto: "https://www.facebook.com/"
             },
             
             {
                 id: 2,
-                name: "instagram-new"
+                name: "instagram-new",
+                linkto: "https://www.instagram.com/"
             },
 
+        ]
+    },
+
+    Projects:{
+        previousProjects: [
+            {
+                id: 1,
+                name: "Sana Appartment",
+                imgURL: "https://source.unsplash.com/200x200/?twin-tower,building",
+                redirect: "https://sanabuilders.wordpress.com/"
+            },
+
+            {
+                id: 2,
+                name: "Sana Avenue",
+                imgURL: "https://source.unsplash.com/200x200/?tower,building",
+                redirect: "https://sanabuilders.wordpress.com/about/"
+            },
+
+            {
+                id: 3,
+                name: "Sana Villas",
+                imgURL: "https://source.unsplash.com/200x200/?appartment,building",
+                redirect: "https://sanabuilders.wordpress.com/vision/"
+
+            },
+
+            {
+                id: 4,
+                name: "Sana Cornor",
+                imgURL: "https://source.unsplash.com/200x200/?villas,building",
+                redirect: "https://sanabuilders.wordpress.com/mission/"
+
+            },
+
+            {
+                id: 5,
+                name: "Sana SUITE",
+                imgURL: "https://source.unsplash.com/200x200/?suite,building",
+                redirect: "https://sanabuilders.wordpress.com/contact/"
+            },
+
+            {
+                id: 6,
+                name: "Sana Garden",
+                imgURL: "https://source.unsplash.com/200x200/?garden,building",
+                redirect: "https://sanabuilders.wordpress.com/about/"
+            },
+        ],
+
+        currentProjects: [
+            {
+                id: 1,
+                name: "Sana Icon",
+                imgURL: "https://source.unsplash.com/200x200/?Icon,building",
+                redirect: "https://sanabuilders.wordpress.com/"
+            },
+
+            {
+                id: 2,
+                name: "Sana Square",
+                imgURL: "https://source.unsplash.com/200x200/?Square,building",
+                redirect: "https://sanabuilders.wordpress.com/about/"
+            },
+
+            {
+                id: 3,
+                name: "Sana Comfort",
+                imgURL: "https://source.unsplash.com/200x200/?Comfort,building",
+                redirect: "https://sanabuilders.wordpress.com/vision/"
+
+            },
+
+            {
+                id: 4,
+                name: "Sana Prime",
+                imgURL: "https://source.unsplash.com/200x200/?Prime,building",
+                redirect: "https://sanabuilders.wordpress.com/mission/"
+
+            },
+
+            {
+                id: 5,
+                name: "Sana Palace",
+                imgURL: "https://source.unsplash.com/200x200/?Palace,building",
+                redirect: "https://sanabuilders.wordpress.com/mission/"
+
+            },
         ]
     }
  }  
